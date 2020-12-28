@@ -10,7 +10,6 @@
     <insert id="insertStudent">
         insert into student(name,age) values(#{name},#{age})
     </insert>
-    <delete id="deleteStudent">
-        delete from student where
-    </delete>
+
+
 </mapper>
